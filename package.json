@@ -1,0 +1,38 @@
+{
+  "name": "striate",
+  "version": "0.0.0",
+  "description": "Whitespace-friendly templating",
+  "license": "ISC",
+  "repository": "metaraine/striate",
+  "author": {
+    "name": "Raine Lourie",
+    "url": "https://github.com/metaraine"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "npm run lint && mocha",
+    "devtest": "nodemon -w index.js -w test -x 'npm test'"
+  },
+  "keywords": [
+    "whitespace",
+    "whitespace-sensitive",
+    "line",
+    "line-based",
+    "template",
+    "templating",
+    "language"
+  ],
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^1.1.0",
+    "mocha": "^2.2.5",
+    "nodemon": "^1.4.0"
+  },
+  "dependencies": {
+    "detect-indent": "^3.0.1",
+    "ejs": "^2.3.3"
+  }
+}
