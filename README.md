@@ -1,4 +1,6 @@
 # striate
+
+[![Join the chat at https://gitter.im/metaraine/striate](https://badges.gitter.im/metaraine/striate.svg)](https://gitter.im/metaraine/striate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![npm version](https://img.shields.io/npm/v/striate.svg)](https://npmjs.org/package/striate)
 [![Build Status](https://travis-ci.org/metaraine/striate.svg?branch=master)](https://travis-ci.org/metaraine/striate)
 
